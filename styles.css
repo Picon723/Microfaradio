@@ -714,6 +714,7 @@ a {
 
 .benefit-card {
     display: flex;
+    flex-direction: column;
     align-items: flex-start;
     gap: 16px;
     padding: 28px 24px;
