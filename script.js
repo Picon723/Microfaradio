@@ -1,5 +1,5 @@
-/* ========================================================
-   ElectroFix — Interactive JavaScript
+﻿/* ========================================================
+   Microfaradio — Interactive JavaScript
    ======================================================== */
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -390,3 +390,4 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
 });
+
