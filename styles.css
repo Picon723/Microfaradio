@@ -1,4 +1,4 @@
-﻿/* ========================================================
+/* ========================================================
    Microfaradio — Premium Electronics Repair Landing Page
    ======================================================== */
 
@@ -683,9 +683,8 @@ a {
     transform: translateY(-4px);
 }
 
-.stat-number {
+.stat-number, .stat-text {
     font-family: var(--font-heading);
-    font-size: clamp(2.2rem, 4vw, 3rem);
     font-weight: 800;
     background: var(--gradient-primary);
     -webkit-background-clip: text;
@@ -693,6 +692,14 @@ a {
     background-clip: text;
     line-height: 1.2;
     margin-bottom: 8px;
+}
+
+.stat-number {
+    font-size: clamp(2.2rem, 4vw, 3rem);
+}
+
+.stat-text {
+    font-size: clamp(1.6rem, 3vw, 2.2rem);
 }
 
 .stat-number::after {
