@@ -5,37 +5,37 @@
 /* ── CSS Variables / Design Tokens ── */
 :root {
     /* Colors */
-    --bg-primary: #06060c;
-    --bg-secondary: #0c0c18;
-    --bg-card: #111122;
-    --bg-card-hover: #161633;
-    --bg-glass: rgba(17, 17, 34, 0.65);
+    --bg-primary: #041024;
+    --bg-secondary: #0a1930;
+    --bg-card: #10213d;
+    --bg-card-hover: #182e54;
+    --bg-glass: rgba(16, 33, 61, 0.65);
 
-    --text-primary: #f0f0f8;
-    --text-secondary: #9a9ab8;
-    --text-muted: #6b6b88;
+    --text-primary: #ffffff;
+    --text-secondary: #e2e8f0;
+    --text-muted: #94a3b8;
 
-    --accent-blue: #0070ff;
-    --accent-blue-light: #3399ff;
-    --accent-neon: #00e88f;
-    --accent-neon-light: #33ffaa;
-    --accent-red: #ff3366;
-    --accent-purple: #7b5cff;
+    --accent-blue: #e63946; /* Red mapped to old blue var */
+    --accent-blue-light: #ff4d5a;
+    --accent-neon: #ffb703; /* Yellow mapped to old neon var */
+    --accent-neon-light: #ffc940;
+    --accent-red: #e63946;
+    --accent-purple: #fb8500; /* Deep yellow/orange */
 
-    --gradient-primary: linear-gradient(135deg, #00e88f 0%, #0070ff 50%, #7b5cff 100%);
-    --gradient-hero: linear-gradient(135deg, #0070ff 0%, #00e88f 100%);
-    --gradient-cta: linear-gradient(135deg, #0070ff 0%, #7b5cff 100%);
-    --gradient-dark: linear-gradient(180deg, #06060c 0%, #0c0c18 100%);
+    --gradient-primary: linear-gradient(135deg, #ffb703 0%, #e63946 50%, #b8001f 100%);
+    --gradient-hero: linear-gradient(135deg, #e63946 0%, #ffb703 100%);
+    --gradient-cta: linear-gradient(135deg, #e63946 0%, #fb8500 100%);
+    --gradient-dark: linear-gradient(180deg, #041024 0%, #0a1930 100%);
 
-    --border-color: rgba(255, 255, 255, 0.06);
-    --border-glow: rgba(0, 232, 143, 0.2);
+    --border-color: rgba(255, 255, 255, 0.08);
+    --border-glow: rgba(255, 183, 3, 0.2);
 
     /* Shadows */
     --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.3);
     --shadow-md: 0 8px 32px rgba(0, 0, 0, 0.4);
     --shadow-lg: 0 16px 64px rgba(0, 0, 0, 0.5);
-    --shadow-glow: 0 0 30px rgba(0, 232, 143, 0.15);
-    --shadow-blue-glow: 0 0 40px rgba(0, 112, 255, 0.2);
+    --shadow-glow: 0 0 30px rgba(255, 183, 3, 0.15);
+    --shadow-blue-glow: 0 0 40px rgba(230, 57, 70, 0.2);
 
     /* Typography */
     --font-heading: 'Outfit', sans-serif;
